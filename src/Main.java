@@ -14,7 +14,7 @@ public class Main {
 
         for (int[] mark : STUDENT_MARKS) {
 
-            displayStudentDetails(getAverageMarks(mark), studentId);
+            displayStudentMarkDetails(calculateAverageMarks(mark), studentId);
 
             studentId++;
 
@@ -23,7 +23,7 @@ public class Main {
     }
 
 
-    public static double getAverageMarks(int[] marks) {
+    public static double calculateAverageMarks(int[] marks) {
 
         double averageMark = 0;
 
@@ -35,7 +35,7 @@ public class Main {
 
     }
 
-    public static void displayStudentDetails(double average, int studentId) {
+    public static void displayStudentMarkDetails(double average, int studentId) {
 
 
         System.out.println("Student " + studentId + " average Mark is " + average);
