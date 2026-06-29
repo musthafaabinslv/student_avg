@@ -3,9 +3,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[][] STUDENT_MARKS = {
+         final int[][] STUDENT_MARKS = {
 
                 {80, 85, 100, 95},
+                {22, 44, 66, 24},
+                {70, 35, 60, 65},
                 {44, 38, 40, 35}
 
         };
